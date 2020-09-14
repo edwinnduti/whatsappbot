@@ -4,8 +4,8 @@ var request = require('request');
 const bodyParser = require('body-parser');
 
 
-const accountSid = "";
-const authToken = "";
+const accountSid = "ACc94707f93c63d01999b4ba1e71274ac6";
+const authToken = "06a855e9ba16a2a2b63fdfe21388709a";
 const client = require('twilio')(accountSid, authToken);
 const MessagingResponse = require('twilio').twiml.MessagingResponse;
 
